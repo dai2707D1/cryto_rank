@@ -1,0 +1,55 @@
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  font-size: 16px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  }
+  h1{
+  color: rgb(7, 7, 7);
+  }
+  a {
+    text-align:right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:blue;
+  }
+  html{
+    background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDw0QDw8NDxUVDQ0NDw8NDQ8NDQ8PFREWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKBwcHDgcHGisZHxkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgADB//EACIQAQEBAQACAwACAwEAAAAAAAABEQISITFR8EHRscHxkf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD2ypqhYAlUixpQVQRYA1cqADrU1uaOqCeqg4wHnpbniubgKrnau+04Dc1WJweQN1TzWxsBeNRLg6BNoONgL5uqc5HTmgoddDrpAEgyAYQm0Da0aQyAWZgTz0pyquegVUWq6qMBXPSq5xUoNQrEdUB10ebqMaA6Njc1QITarpOAea6OeCdgrpK8bAbmqqajyBuq3NNgwFtg5XgJT10eqgF89apydOaCoQKA66bmjGkB0h1MqeugV5shgKOqeqjAVx06Ryx04oKwKR1QF6AwgGVjYAVOtRQDpjYeanoE9UKxsA8Vdc6J2B6qV4MAc1eJxXNBhesPVc8BQMOAmE4AVOtLnjpzQOJq3PugjrpXN1OAHUDyAA4l0gAKT1QPn/DOeL56BTYcMACqYEWMqxHQJtXzdThgLxqZUdXQR1QrGwG56dMc8XzQOJ6quq54Dc1WJxXINIqHGwBYMU1BIKOugV57++Wjni5QNTix0CcYMCsEpT1QVb9JwT0oA2HGBXHS3JfPQKZtTaDUYSCMZVc+roC9LlczAdMbG5qgQOqrquQHnr7W5r5oHDimoCVSWlBTMjroB1U4WANha0D5BC+aBxmYB1RihQTWhYFwVMuK0ACKB56+1Oa+egVCNRetA9XU4U6BxsVGARXl++kddIlBeNhl0gnGw1OgvnpbmeegVQpz66Br0yTKBLNaDVBYGjYxgNrHGBMqk2NLgKwEUBRLhFBXyBLigDVqi3QVO9/0rHNXPQFsVgoCKvX76R1c/fCJQOMpsAR08v8AjnanaDpWbm6ZAaNhxz66A+f8fwXPFc9Api1oNuJBgEggca+m3EgLWLAqxNVRYAlxSMaUFUEUA0uMi+wXboxMuLwEnDhA89Hq5++HPqjm/YNYMXgwBPS7U30iUFUKbAaOnNRiL19A6dVOGeyCDhwX0BnWfLOfyrmgoggT8BIMY2GQGxiwMzCg1BlFgCVQToNfYIwAebjYQUOrn74T5Y2AGw4YB5pvpNTOvsGoXjYA5uOkRifIFdVOKxrATq5dTjbgLtxF9tLpAM2HAbmrQ0v2BLGQGhFrAWDAwolNgJ1U6TYgF1jK2ACxAVPVxXVRgJMuNhwFRrcG5/TX37Aa2NioDc1WJweX8A3VGLxNAS4tGHc/oDfTnqr79tgBcuoILZpSCWOMDSnrpPVTAVFQSKBmT5kBYJVJsBqLDDgIXKmwQHQWt5AAxbAGN8KqLATTPTKwDCmelAm1sOMDSs2HcAVzqxYAlxSTAOMoAFypYFDq/vpr1/7/AIQAVIZCAnprdatAOMWBNZmBsLMAT0zAmLl1mAsWBLYzA2MzAzT0GBbMwC1LMBZmAYZGYGJYALc/fDMCF8swKBYAzMDMzA//2Q==');
+  }
+  input{
+  padding-left: 5px;
+  font-size: 20px;
+  width: 250px;
+  height: 30px;
+  }
+  table{
+  width: 1000px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  }
+  thead{
+  background-color: rgb(44, 44, 44);
+  color: white;
+  text-align: center;
+  }
+  tbody > tr{
+  text-align: right;
+  }
+  .rank{
+  text-align: center;
+  font-weight: bold;
+  }
+  .logo{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  gap: 10px;
+  }
+  .symbol{
+  text-align: center;
+  }
+  
